@@ -1,0 +1,23 @@
+Shane Hoffman sth78
+Michael Li ml1495
+
+To test intially we used spot checking, 
+creating text files to test certain properties 
+of the wrap algorithm. We checked to make sure 
+line width stayed <= the given width to wrap. 
+We checked to make sure words too big were put 
+on their own line. We also checked to make sure
+paragraphs had a maximum of two "\n" characters 
+between them and that there weren't paragraphs
+breaks at the start of a file or the end.
+
+We also checked the directory functionality. Only 
+regular files within the directory were wrapped. 
+Making sure subdirectories of a given directory 
+weren't read or any file that began with "wrap.". 
+
+After simple checking of certain properties was
+done we tested large files from online. Cross-checked
+our results with another groups results to confirm
+the same output was recieved.
+
